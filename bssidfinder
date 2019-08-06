@@ -23,6 +23,11 @@ I do not take responsibility for your actions.
 @click.option('-e', '--essid', 'essid', default=None, help='Set the wireless ap name than you find.')
 
 def main(iface, essid):
+    if iface == None:
+        click.echo("Usage: bssidfinder --help")
+        exit()
+    else:
+        pass
     if essid == None:
         os.system("iwlist "+str(iface)+" scanning | egrep 'Cell |ESSID|Address' | sed 's/Cell//g'")
     elif essid != None:
@@ -31,3 +36,4 @@ def main(iface, essid):
         main()
 
 main()
+
