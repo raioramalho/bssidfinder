@@ -1,0 +1,8 @@
+v1.0: sáb 12 jan 2019 13:31:50 > Start the bssidfinder project.
+v1.0: dom 13 jan 2019 13:19:29 > Changed airodump-ng for iwlist and iw dev.
+v1.0: dom 13 jan 2019 13:33:57 > Declared code without error.
+v1.0: dom 13 jan 2019 13:34:25 > Edit Readme.md for more compreension.
+v1.0: dom 13 jan 2019 13:34:45 > Fix check root permissions.
+v1.0: dom 13 jan 2019 16:24:00 > Fix error in execution missing.
+v1.0: dom 13 jan 2019 16:47:20 > Tags and twitter link on Readme.md.
+v1.2: seg 05 ago 2019 21:40:38 > Change argparser by click, and remove nmcli use.
